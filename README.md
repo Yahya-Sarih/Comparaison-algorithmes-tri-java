@@ -69,11 +69,6 @@ Les temps d'exécution des trois algorithmes ont été mesurés pour différente
 | 10 000 | 25,9561 | 130,5075 | 27,9057 |
 | 50 000 | 624,0367 | 3704,1680 | 246,9747 |
 
-### Graphique comparatif
-
-Le graphique suivant présente l'évolution des temps d'exécution des trois algorithmes en fonction de la taille des tableaux.
-
-![Comparaison des temps d'exécution des trois algorithmes](images/comparaison_temps_tri.png)
 
 ### Analyse des résultats
 
