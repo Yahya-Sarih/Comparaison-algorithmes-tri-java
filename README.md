@@ -60,8 +60,27 @@ Les expérimentations sont réalisées avec les tailles suivantes :
 
 ## Résultats expérimentaux
 
-Les temps d'exécution des trois algorithmes sont mesurés et comparés pour les différentes tailles de tableaux.
+Les temps d'exécution des trois algorithmes ont été mesurés pour différentes tailles de tableaux.
 
-Le tri à bulles présente les temps d'exécution les plus élevés dans nos tests. Le tri par insertion obtient le meilleur temps pour les tableaux de 50 000 éléments.
+| Taille du tableau | Tri par sélection (ms) | Tri à bulles (ms) | Tri par insertion (ms) |
+|---:|---:|---:|---:|
+| 1 000 | 3,9835 | 7,0217 | 4,8024 |
+| 5 000 | 8,0390 | 27,0521 | 18,0575 |
+| 10 000 | 25,9561 | 130,5075 | 27,9057 |
+| 50 000 | 624,0367 | 3704,1680 | 246,9747 |
+
+### Graphique comparatif
+
+Le graphique suivant présente l'évolution des temps d'exécution des trois algorithmes en fonction de la taille des tableaux.
+
+![Comparaison des temps d'exécution des trois algorithmes](images/comparaison_temps_tri.png)
+
+### Analyse des résultats
+
+- Le tri à bulles présente les temps d'exécution les plus élevés dans les tests réalisés.
+- Le tri par sélection est le plus rapide pour les tailles de 1 000, 5 000 et 10 000 éléments.
+- Le tri par insertion obtient le meilleur temps pour 50 000 éléments.
+
+*Remarque : les mesures correspondent à une seule exécution par taille et peuvent varier selon les conditions d'exécution.*
 
 
